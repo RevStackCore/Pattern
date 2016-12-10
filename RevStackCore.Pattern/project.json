@@ -1,5 +1,13 @@
 ﻿{
   "version": "1.0.1-*",
+  "title": "RevStackCore.Pattern",
+  "authors": [ "MIS Interactive", "David Sheets", "Scott Francis" ],
+  "owners": [ "David Sheets", "Scott Francis" ],
+  "licenseUrl": "https://github.com/RevStackCore/Pattern/blob/master/LICENSE",
+  "projectUrl": "https://github.com/RevStackCore/Pattern.git",
+  "description": "RevStackCore .net core repository pattern.",
+  "copyright": "Copyright 2016 Managed Information Solutions, LLC",
+  "tags": [ "RevStackCore", ".net core", "RevStack", "Repository Pattern" ],
 
   "dependencies": {
     "NETStandard.Library": "1.6.0"
