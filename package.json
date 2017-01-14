@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.Pattern",
+  "version": "1.0.0",
+  "description": "C# Design Pattern class library",
+  "main": "RevStackCore.Pattern.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/Pattern.git"
+  },
+  "author": "S. Francis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RevStackCore/Pattern/issues"
+  },
+  "homepage": "https://github.com/RevStackCore/Pattern"
+}
