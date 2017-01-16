@@ -1,15 +1,3 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="RevStackCore.Pattern/IService.cs">
-    <Files>
-      <File FileName="RevStackCore.Pattern/IRepository.cs" Line="10" Column="36" />
-      <File FileName="RevStackCore.Pattern/Service.cs" Line="1" Column="1" />
-      <File FileName="RevStackCore.Pattern/IService.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>
