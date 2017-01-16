@@ -2,6 +2,8 @@ configuration: Release
 
 version: 1.0.{build}
 
+image: Visual Studio 2017 RC
+
 build:
     parallel: true
     publish_nuget: true
@@ -10,13 +12,6 @@ build:
 before_build:
   - dotnet restore
   
-assembly_info:
-    assembly_version: '{version}'
-    assembly_file_version: '{version}'
-    assembly_informational_version: '{version}'
-    file: AssemblyInfo.*
-    patch: true
-
 branches:
     only:
       - master
