@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
     <PackageId>RevStackCore.Pattern</PackageId>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>1.0.4</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>C# Design Pattern class library</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

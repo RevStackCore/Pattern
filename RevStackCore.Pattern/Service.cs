@@ -20,10 +20,20 @@ namespace RevStackCore.Pattern
             return _repository.Get();
         }
 
+		public virtual TEntity GetById(TKey Id)
+		{
+			return _repository.GetById(Id);
+		}
+
         public virtual Task<IEnumerable<TEntity>> GetAsync()
         {
             return Task.FromResult(Get());
         }
+
+		public virtual Task<TEntity> GetByIdAsync(TKey Id)
+		{
+			return Task.FromResult(GetById(Id));
+		}
 
         public virtual IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
