@@ -1,13 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="package.json">
-    <Files>
-      <File FileName="RevStackCore.Pattern/IRepository.cs" Line="16" Column="6" />
-      <File FileName="RevStackCore.Pattern/IService.cs" Line="15" Column="40" />
-      <File FileName="RevStackCore.Pattern/Service.cs" Line="35" Column="40" />
-      <File FileName="RevStackCore.Pattern/RevStackCore.Pattern.csproj" Line="12" Column="63" />
-      <File FileName="package.json" Line="10" Column="19" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

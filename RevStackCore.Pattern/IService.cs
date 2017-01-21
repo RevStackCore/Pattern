@@ -9,13 +9,13 @@ namespace RevStackCore.Pattern
     public interface IService<TEntity,TKey>
     {
         IEnumerable<TEntity> Get();
-		TEntity GetById(TKey Id);
+		TEntity GetById(TKey id);
         IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
         TEntity Add(TEntity entity);
         TEntity Update(TEntity entity);
         void Delete(TEntity entity);
         Task<IEnumerable<TEntity>> GetAsync();
-		Task<TEntity> GetByIdAsync(TKey Id);
+		Task<TEntity> GetByIdAsync(TKey id);
         Task<IQueryable<TEntity>> FindAsync(Expression<Func<TEntity, bool>> predicate);
         Task<TEntity> AddAsync(TEntity entity);
         Task<TEntity> UpdateAsync(TEntity entity);

@@ -8,7 +8,7 @@ namespace RevStackCore.Pattern
     public interface IRepository<TEntity, TKey> where TEntity : class, IEntity<TKey>
     {
         IEnumerable<TEntity> Get();
-		TEntity GetById(TKey Id);
+		TEntity GetById(TKey id);
         IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
         TEntity Add(TEntity entity);
         TEntity Update(TEntity entity);
