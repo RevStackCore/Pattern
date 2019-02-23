@@ -3,11 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
     <PackageId>RevStackCore.Pattern</PackageId>
-    <PackageVersion>1.0.5</PackageVersion>
+    <PackageVersion>1.0.6</PackageVersion>
     <Authors>S. Francis</Authors>
     <Description>C# Design Pattern class library</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Net Standard 1.5 release</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/RevStackCore/Pattern.git</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/RevStackCore/Pattern/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://s3.amazonaws.com/revstack/icons/revstackcore-64x64.png</PackageIconUrl>
     <Copyright>Copyright 2017</Copyright>
     <PackageTags>RevStackCore Repository Pattern</PackageTags>
   </PropertyGroup>
