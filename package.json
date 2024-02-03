@@ -1,6 +1,6 @@
 {
   "name": "RevStackCore.Pattern",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "C# Design Pattern class library",
   "main": "RevStackCore.Pattern.sln",
   "scripts": {
